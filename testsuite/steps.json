@@ -1,7 +1,7 @@
 {
     "title" : "Test: Steps",
     "uri" : "https://rein-zieh.github.io/otiFiles/testsuite/steps.json",
-    "image" : "https://rein-zieh.github.io/otiFiles/testsuite/steps.jpg",
+    "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/steps.jpg",
     "alt" : "Steps",
     "text" : "Test für einfache Schritte",
     "meta": {
@@ -27,14 +27,14 @@
             "id" : "step-1",
             "title" : "Schritt Nummer 1",
             "text" : "Dies ist der erste Schritt",
-            "image" : "https://rein-zieh.github.io/otiFiles/testsuite/a.jpg"
+            "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/a.jpg"
         },
         {
             "type" : "step",
             "id" : "step-2",
             "title" : "Schritt Nummer 2",
             "text" : "Dies ist der zweite Schritt",
-            "image" : "https://rein-zieh.github.io/otiFiles/testsuite/b.jpg"
+            "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/b.jpg"
         }
     ]
 }
