@@ -1,0 +1,40 @@
+{
+    "title" : "Test: Steps",
+    "uri" : "https://rein-zieh.github.io/otiFiles/testsuite/steps.json",
+    "image" : "https://rein-zieh.github.io/otiFiles/testsuite/steps.jpg",
+    "alt" : "Steps",
+    "text" : "Test für einfache Schritte",
+    "meta": {
+        "author" : {
+            "name": "Frank Reins",
+            "organisation": "rein-zieh.de",
+            "email": "frank@rein-zieh.de"
+        },
+        "description" : "Ein oti-File zum Testen eines oti-Players mit einfachen Schritten",
+        "keywords" : [
+            "Test",
+            "Schritte"
+        ],
+        "license" : "CC BY-SA",
+        "supported-media" : [
+            "text",
+            "image"
+        ]
+    },
+    "steps": [
+        {
+            "type" : "step",
+            "id" : "step-1",
+            "title" : "Schritt Nummer 1",
+            "text" : "Dies ist der erste Schritt",
+            "image" : "https://rein-zieh.github.io/otiFiles/testsuite/a.jpg"
+        },
+        {
+            "type" : "step",
+            "id" : "step-2",
+            "title" : "Schritt Nummer 2",
+            "text" : "Dies ist der zweite Schritt",
+            "image" : "https://rein-zieh.github.io/otiFiles/testsuite/b.jpg"
+        }
+    ]
+}
