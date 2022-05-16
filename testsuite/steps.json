@@ -34,7 +34,24 @@
             "id" : "step-2",
             "title" : "Schritt Nummer 2",
             "text" : "Dies ist der zweite Schritt",
-            "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/b.jpg"
+            "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/b.jpg",
+            "video" : "https://rein-zieh.github.io/otiFiles/testsuite/img/b.mp4",
+            "audio" : "https://rein-zieh.github.io/otiFiles/testsuite/img/b.mp3",
+            "animation" : {
+                "images" : [
+                    "https://rein-zieh.github.io/otiFiles/testsuite/img/b.jpg",
+                    "https://rein-zieh.github.io/otiFiles/testsuite/img/b1.jpg",
+                    "https://rein-zieh.github.io/otiFiles/testsuite/img/b2.jpg"
+                ],
+                "intervall" : 1s
+            }
+        },
+        {
+            "type" : "step",
+            "id" : "step-3",
+            "title" : "Schritt Nummer 3",
+            "text" : "Dies ist der dritte Schritt",
+            "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/c.jpg"
         }
     ]
 }
