@@ -43,7 +43,7 @@
                     "https://rein-zieh.github.io/otiFiles/testsuite/img/b1.jpg",
                     "https://rein-zieh.github.io/otiFiles/testsuite/img/b2.jpg"
                 ],
-                "intervall" : 1s
+                "intervall" : "1s"
             }
         },
         {
