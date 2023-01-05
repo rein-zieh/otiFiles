@@ -1,0 +1,72 @@
+{
+    "title" : "Test: If-Then",
+    "uri" : "https://rein-zieh.github.io/otiFiles/testsuite/if-then.json",
+    "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/if-then.jpg",
+    "alt" : "If-Then",
+    "text" : "Test für einfache Schritte",
+    "meta": {
+        "author" : {
+            "name": "Frank Reins",
+            "organisation": "rein-zieh.de",
+            "email": "frank@rein-zieh.de"
+        },
+        "description" : "Ein oti-File zum Testen eines oti-Players mit einer If-Then-Anweisung.",
+        "keywords" : [
+            "Test",
+            "If-Then"
+        ],
+        "license" : "CC BY-SA",
+        "supported-media" : [
+            "text",
+            "image"
+        ]
+    },
+    "steps": [
+        {
+            "type" : "step",
+            "id" : "step-1",
+            "title" : "Schritt Nummer 1",
+            "text" : "Dies ist der erste Schritt",
+            "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/a.jpg"
+        },
+        {
+            "type" : "if-then",
+            "id" : "if-1",
+            "title" : "Frage?",
+            "text" : "Antwort 1",
+            "else_text": "Antwort 2",
+            "then" : [
+                {
+                    "type" : "step",
+                    "id" : "step-2",
+                    "title" : "Schritt Nummer 2a",
+                    "text" : "Dies ist der erste Schritt im if-Fall"
+                    "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/b1.jpg"
+                },
+                {
+                    "type" : "step",
+                    "id" : "step-3",
+                    "title" : "Schritt Nummer 3a",
+                    "text" : "Dies ist der erste Schritt im if-Fall"
+                    "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/b2.jpg"
+                }
+            ],
+            "else" : [
+                {
+                    "type" : "step",
+                    "id" : "step-4",
+                    "title" : "Schritt Nummer 2b",
+                    "text" : "Dies ist der Schritt im then-Fall"
+                    "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/b.jpg"
+                }
+            ]
+        },
+        {
+            "type" : "step",
+            "id" : "step-5",
+            "title" : "Schritt Nummer 3",
+            "text" : "Dies ist der letzte Schritt",
+            "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/c.jpg"
+        }
+    ]
+}
