@@ -40,14 +40,14 @@
                     "type" : "step",
                     "id" : "step-2",
                     "title" : "Schritt Nummer 2a",
-                    "text" : "Dies ist der erste Schritt im if-Fall"
+                    "text" : "Dies ist der erste Schritt im if-Fall",
                     "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/b1.jpg"
                 },
                 {
                     "type" : "step",
                     "id" : "step-3",
                     "title" : "Schritt Nummer 3a",
-                    "text" : "Dies ist der erste Schritt im if-Fall"
+                    "text" : "Dies ist der erste Schritt im if-Fall",
                     "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/b2.jpg"
                 }
             ],
@@ -56,7 +56,7 @@
                     "type" : "step",
                     "id" : "step-4",
                     "title" : "Schritt Nummer 2b",
-                    "text" : "Dies ist der Schritt im then-Fall"
+                    "text" : "Dies ist der Schritt im then-Fall",
                     "image" : "https://rein-zieh.github.io/otiFiles/testsuite/img/b.jpg"
                 }
             ]
